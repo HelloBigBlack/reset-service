@@ -1,0 +1,1 @@
+package com.zpower.restservice.demo.controller;import org.springframework.web.bind.annotation.RequestMapping;import org.springframework.web.bind.annotation.RestController;@RestControllerpublic class RestDemoController {    @RequestMapping("/helloworld")    public String helloWorld() {        return "Hello World";    }}
