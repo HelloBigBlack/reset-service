@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost/demo
+      username: root
+      password: zyx1995
+      driver-class-name: com.mysql.jdbc.Driver
+  session:
+    store-type: jdbc
+    jdbc:
+      initialize-schema: always
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost/test
+#    username: root
+#    password: zyx1995
