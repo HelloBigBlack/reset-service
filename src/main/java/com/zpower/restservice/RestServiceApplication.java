@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
-public class RestserviceApplication {
+public class RestServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RestserviceApplication.class, args);
+        SpringApplication.run(RestServiceApplication.class, args);
     }
 
 }
