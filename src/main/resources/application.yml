@@ -13,3 +13,7 @@ spring:
 #    url: jdbc:mysql://localhost/test
 #    username: root
 #    password: zyx1995
+jwt:
+  secret: secret
+  expiration: 7200000
+  token: token

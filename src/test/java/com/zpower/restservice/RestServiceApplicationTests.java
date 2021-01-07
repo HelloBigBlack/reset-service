@@ -32,12 +32,12 @@ class RestServiceApplicationTests {
     
     @Test
     void mybatisSelect() {
-        Employee employee = employeeMapper.findById("2");
-        if(employee != null) {
-            System.out.println(employee.toString());
-        } else {
-            System.out.println("employee is null!");
-        }
+//        Employee employee = employeeMapper.findById("2");
+//        if(employee != null) {
+//            System.out.println(employee.toString());
+//        } else {
+//            System.out.println("employee is null!");
+//        }
     }
 
 }
